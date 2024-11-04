@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+/* Tela de Login */
+.background{
+    background:#67B0B4; 
+    height: 100vh;
+    justify-content: center;
+}
+.login{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.login p{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 23px;
+}
+.login input[type]{
+    margin: 5px;
+    padding: 5px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.login button{
+background-color: white;
+color: black;
+width: 100px;
+height: 25;
+padding: 5px;
+border-radius: 8px;
+border-style: none;
+font: 20px bolder ;
+}
+.login img{
+    width: 300px;
+    margin-top: 10px;
+}
+.login a{
+    color: black;
+    text-decoration: none;
+}
+.biometria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.biometria img{
+    width: 50px;
+}
+.biometria p{
+    margin-left: 0;
+}
+
+/* Tela de Cadastro */
+
+/* home */
+header {
+    width: 100%;
+    height: 48px;
+    position: fixed;
+    top: 0;
+    background-color:#67B0B4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+header img {
+    width: 44px;
+}
+.cad{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.cad input[type],[type=date]{
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E8E8E8;
+    color: gray;
+    box-shadow: inset 2px 2px 3px;
+}
+.cad p{
+    display: flex;
+    margin-left: 15px;
+}
+.cad button{
+    background-color: transparent;
+    width: auto;
+    border: none;
+}
+.cad a{
+    color: white;
+    text-decoration: none;
+}
+.flexbutton{
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.flexbutton img{
+    width: 35px;
+}
+.flexduobutton{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.flexduobutton a{
+    color: white;
+    text-decoration: none
+}
+.flexduobutton img{
+    width: 35px; 
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 250px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style_cad.css">
+    <title>Login</title>
+</head>
+<body class="background">
+    <section class="login">
+        <img src="LogoDigiPass_cad.png" alt="">
+        <br><br>
+    <form id="login">
+        <P>CPF</P>  
+        <input type="number" name="" id="" required><br>
+        <p>Senha</p>
+        <input type="password" name="" id="" required><br><br>
+            <div class="biometria">
+                <img src="Icons/digital.png" alt="">
+                <p>Entre ultulizando sua</p>
+                <p>impressão digital</p>
+            </div><br><br>
+        <button type="submit">Entrar</button>
+        <br><br>
+        <a href="Tela_Cadastro.html">Cadastrar-se</a>
+    </form>
+    </section>
+    <script>
+        document.getElementById("login").addEventListener("submit", function (event){
+            event.preventDefault();
+            window.location.href="Tela_Menu.html"
+        })
+    </script>
+</body>
+</html>

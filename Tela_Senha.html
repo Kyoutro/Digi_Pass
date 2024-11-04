@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_cad.css">
+    <title>Cadastro de Dados Pessoais</title>
+</head>
+<body>
+    <header>
+        <img src="LogoDigiPass_cad.png" alt="">
+        <h1>DigiPass</h1>
+    </header>
+    <br><br><br><br><br><br><br><br>
+    <form id="cad" class="cad">
+            <p>Senha</p>
+            <input type="password" name="" id="" required>
+            <p>Repetir senha</p>
+            <input type="password" name="" id="" required>
+        <br><br><br><br><br><br><br><br><br>
+        <div class="flexduobutton">
+            <button><a href=""><img src="Icons/voltar.png" alt=""></a></button>
+            <button type="submit"><img src="Icons/confirmar.png" alt=""></button>
+        </div>
+    </form>
+<script>
+    document.getElementById("cad").addEventListener("submit", function (event){
+        event.preventDefault();
+        window.location.href="index.html"
+    })
+</script>
+</body>
+</html>
