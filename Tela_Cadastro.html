@@ -11,7 +11,7 @@
         <img src="LogoDigiPass_cad.png" alt="">
         <h1>DigiPass</h1>
     </header>
-    <form class="cad">   
+    <form id="cad" class="cad">   
             <p>Nome</p>  
             <input type="text" name="" id="" required>
             <p>CPF</p>
@@ -28,5 +28,11 @@
             <button><a href="Tela_Senha.html"><img src="Icons/avançar.png" alt=""></a></button>
         </div>
     </form>
+    <script defer>
+        document.getElementById('cad').addEventListener('submit', function(event) {
+            event.preventDefault();
+            window.location.href = 'Tela_Senha.html'
+        })
+    </script>
 </body>
 </html>
